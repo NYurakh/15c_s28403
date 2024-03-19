@@ -14,3 +14,15 @@ def e_squares(start, end):
     return [x**2 for x in range(start, end+1)]
 
 print(e_squares(1, 10))
+
+
+
+# Task 3
+print("# Task 3")
+
+class SquareGenerator:
+    def generate_squares(self, start, end):
+        return [x**2 for x in range(start, end+1)]
+
+squares2 = SquareGenerator()
+print(squares2.generate_squares(1,10))
