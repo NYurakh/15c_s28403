@@ -1,3 +1,5 @@
+import math
+
 # Task 1
 print("# Task 1")
 
@@ -26,3 +28,10 @@ class SquareGenerator:
 
 squares2 = SquareGenerator()
 print(squares2.generate_squares(1,10))
+
+
+
+# Task 4
+print("# Task 4")
+
+print([math.sqrt(i) for i in squares2.generate_squares(1, 10)])
