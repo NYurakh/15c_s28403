@@ -1,5 +1,7 @@
 import math
 
+from square_generator import SquareGenerator
+
 # Task 1
 print("# Task 1")
 
@@ -21,12 +23,6 @@ print(e_squares(1, 10))
 
 # Task 3
 print("# Task 3")
-
-class SquareGenerator:
-    def generate_squares(self, start, end):
-        if end < start:
-            raise ValueError("End must be greater or equal to start.")
-        return [x**2 for x in range(start, end+1)]
 
 squares2 = SquareGenerator()
 print(squares2.generate_squares(1,10))
