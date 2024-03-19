@@ -1,5 +1,6 @@
 import math
 
+from generators.cubic_generator import CubicGenerator
 from generators.square_generator import SquareGenerator
 
 # Task 1
@@ -45,3 +46,10 @@ except ValueError as e:
     print("Error:", e)
 
 
+
+
+# Task 8
+print("# Task 8")
+
+cubics = CubicGenerator()
+print(cubics.generate_squares(1, 10))
