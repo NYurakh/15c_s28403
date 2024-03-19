@@ -53,3 +53,12 @@ print("# Task 8")
 
 cubics = CubicGenerator()
 print(cubics.generate_squares(1, 10))
+
+# Task 9
+print("# Task 9")
+
+cubic_gen = CubicGenerator()
+try:
+    print("Cubes from 5 to 1:", cubic_gen.generate_squares(5, 1))
+except ValueError as e:
+    print("Error:", e)
