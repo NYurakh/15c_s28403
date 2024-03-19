@@ -25,25 +25,25 @@ print(e_squares(1, 10))
 # Task 3
 print("# Task 3")
 
-squares2 = SquareGenerator()
-print(squares2.generate_squares(1,10))
+# squares2 = SquareGenerator()
+# print(squares2.generate_squares(1,10))
 
 
 
 # Task 4
 print("# Task 4")
 
-print([math.sqrt(i) for i in squares2.generate_squares(1, 10)])
+# print([math.sqrt(i) for i in squares2.generate_squares(1, 10)])
 
 
 
 # Task 5
 print("# Task 5")
 
-try:
-    print(squares2.generate_squares(10,1))
-except ValueError as e:
-    print("Error:", e)
+# try:
+#     print(squares2.generate_squares(10,1))
+# except ValueError as e:
+#     print("Error:", e)
 
 
 
@@ -62,3 +62,9 @@ try:
     print("Cubes from 5 to 1:", cubic_gen.generate_squares(5, 1))
 except ValueError as e:
     print("Error:", e)
+
+
+# Task 10
+print("# Task 10")
+
+print(cubic_gen.generate_squares(1, 10))
