@@ -1,6 +1,6 @@
 import math
 
-from square_generator import SquareGenerator
+from generators.square_generator import SquareGenerator
 
 # Task 1
 print("# Task 1")
